@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <title>lets do coding!</title>
+</head>
+<style>
+  @media screen and (max-width: 768px) {
+    .slider {
+      height: 60vh;
+    }
+  }
+
+  @media screen and (max-width: 344px) {
+    #text {
+      font-size: 1rem;
+    }
+
+    #image {
+      height: 2.5rem;
+      width: 3rem;
+      border-radius: 3rem;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    
+    #text {
+      font-size: 1rem;
+    }
+
+    #image {
+      height: 2rem;
+      width: 3rem;
+      border-radius: 3rem;
+    }
+  }
+
+
+.h {
+    text-align: center;
+  }
+
+#image {
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 3rem;
+  }
+.slider{
+ height:60vh;
+  }
+  
+</style>
+
+
+
+
+
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <img id="image" src="logo.PNG">
+      <a class="navbar-brand " id="text" href="#">Miheer coding reference</a>
+      <div class="border border-light border-2 rounded">
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="/about.html">About</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link  " href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="https://drive.google.com/file/d/1dghcM0yMkwpAHsdTBbc9gluyXAyFTQw3/view">Python notes</a></li>
+              <li><a class="dropdown-item" href="https://www.codewithharry.com/videos/learn-java-in-one-video-in-hindi-2019">Java notes</a></li>
+              <li><a class="dropdown-item" href="https://www.codewithharry.com/videos/javascript-tutorial-in-hindi-in-one-video-2020">Javascript notes</a></li>
+              <li><a class="dropdown-item" href="https://www.codewithharry.com/videos/learn-c-plus-plus-in-one-video-in-hindi">C++ notes</a></li>
+              <li><a class="dropdown-item" href="https://www.codewithharry.com/videos/c-tutorial-in-hindi-with-notes">C notes</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="https://www.w3schools.com/cs/index.php">C# notes</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            type="button">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- https://source.unsplash.com/1600x400/?computer,programming -->
+  <div class="container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="slider1.jpg"class="slider img-fluid"  class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider2.jpg" class="slider img-fluid" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="slider3.jpg"class="slider img-fluid"  class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+ 
+  
+
+
+
+  <!-- Button trigger modal -->
+  <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Backend work in progress</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+         sorry! Backend work is in progress of the site please visit later
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+
+          <div class="card shadow-sm">
+            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+            <h1 class="h">python notes</h1>
+            <img src="img1.png" width="100%" height="225">
+            <div class="card-body">
+              <p class="card-text">Here is the link of handwritten notes of python which covers each and every topic
+              </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://drive.google.com/file/d/1dghcM0yMkwpAHsdTBbc9gluyXAyFTQw3/view"><button type="button" class="btn btn-sm btn-secondary ">View</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <h1 class="h">Java notes</h1>
+            <img src="img2.jpg" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">Here is the link of  notes of Java which covers each and every topic</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.codewithharry.com/videos/learn-java-in-one-video-in-hindi-2019"><button type="button" class="btn btn-sm btn-secondary ">View</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <h1 class="h">Javascript notes</h1>
+            <img src="img3.jpg" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">Here is the link of  notes of Javascript which covers each and every
+                topic.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.codewithharry.com/videos/javascript-tutorial-in-hindi-in-one-video-2020"><button type="button" class="btn btn-sm btn-secondary ">View</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <h1 class="h">C++ notes</h1>
+            <img src="img4.png" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">Here is the link of notes of C++ which covers each and every topic</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.codewithharry.com/videos/learn-c-plus-plus-in-one-video-in-hindi"><button type="button" class="btn btn-sm btn-secondary ">View</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <h1 class="h">C notes</h1>
+            <img src="img5.jpg" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">Here is the link of handwritten notes of C programming which covers each and every
+                topic</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.codewithharry.com/videos/c-tutorial-in-hindi-with-notes"><button type="button" class="btn btn-sm btn-secondary ">View</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <h1 class="h">C# notes</h1>
+            <img src="img6.png" width="100%" height="225">
+
+            <div class="card-body">
+              <p class="card-text">Here is the link of  notes of <C id=""></C> which covers each and every
+                topic</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="https://www.w3schools.com/cs/index.php"><button type="button" class="btn btn-sm btn-secondary ">View</button></a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+</body>
+
+</html>
